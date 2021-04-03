@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 
+
 $border-body: 5px dashed hotpink;
 $border-container: 5px solid yellow;
 $border-container-inner: 2px dashed deepskyblue;
@@ -11,8 +12,9 @@ $white: #fff;
 $black: #000;
 $background-primary: #1E2140;
 $bg-secondary: #161932;
-
 $text-primary: #D7E0FF;
+
+$ffi: 'FontAwesome';
 
 
 * {
@@ -28,4 +30,19 @@ html body {
     width: 100%;
     background: $background-primary;
     border: 5px dashed hotpink;
+}
+
+.footer {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    a {
+        transition: all .3s ease;
+        i {
+            font-size: 30px;
+        }
+        &:hover {
+            opacity: .2;
+        }
+    }
 }
