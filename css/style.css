@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #D7E0FF;
+}
+
+html body {
+  height: 100vh;
+  width: 100%;
+  background: #1E2140;
+  border: 5px dashed hotpink;
+}
+
+.footer {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.footer a {
+  transition: all 0.3s ease;
+}
+.footer a i {
+  font-size: 30px;
+}
+.footer a:hover {
+  opacity: 0.2;
+}
